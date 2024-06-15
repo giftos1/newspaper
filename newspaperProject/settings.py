@@ -43,7 +43,8 @@ INSTALLED_APPS = [
 
     # Local
     'users.apps.UsersConfig',
-    "pages.apps.PagesConfig"
+    "pages.apps.PagesConfig",
+    "articles.apps.ArticlesConfig"
 
 ]
 
@@ -111,7 +112,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Australia/Brisbane'
 
 USE_I18N = True
 
